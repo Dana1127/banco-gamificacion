@@ -1,0 +1,43 @@
+.contenedor {
+    position: relative;
+}
+
+.menu-w{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.btn-atras{
+    position: absolute;
+    top: 10% ;
+    left: 2%;
+    z-index: 2;
+} 
+
+#boton {
+    position: absolute;
+    background-color: #FF8833;
+    color: white;
+    font-size: medium;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.fondo {
+    background-color: rgb(215, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+    position: static;
+}
+
