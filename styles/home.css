@@ -1,0 +1,35 @@
+.contenedor {
+    position: relative;
+    height: 100vh;  /* Para que ocupe la altura completa */
+}
+
+.fondo {
+    background-color: rgb(215, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%; 
+    overflow: hidden; /* Para que no se desborde lo de adentro */
+}
+
+#menu-opciones {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 0; /* alinea esta sección en la parte de abajo */
+    left: 0;
+    right: 0; 
+    z-index: 1;
+}
+
+#menu-opciones article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+}
+
+
+
