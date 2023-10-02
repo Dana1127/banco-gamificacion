@@ -1,7 +1,7 @@
 .contenedor {
     position: relative;
 }
- 
+
 .menu-w{
     position: absolute;
     display: flex;
@@ -12,31 +12,20 @@
     z-index: 2;
 }
 
-
-#btn-1{
+.btn-atras{
     position: absolute;
-    top: 43% ;
+    top: 10% ;
     left: 2%;
     z-index: 2;
+} 
 
+#boton-2 {
+    position: absolute;
     background-color: #FF8833;
     color: white;
     font-size: medium;
-    padding: 10px 40px;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
-
-#btn-2{
-    position:absolute;
-    top: 67% ;
-    left: 2%;
-    z-index: 2;
-
-    background-color: #FF8833;
-    color: white;
-    font-size: medium;
+    display: flex;
+    align-self: center;
     padding: 10px 40px;
     border: none;
     cursor: pointer;
@@ -53,3 +42,4 @@
     overflow: hidden;
     position: static;
 }
+
