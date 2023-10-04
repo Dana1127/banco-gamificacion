@@ -12,28 +12,37 @@
     z-index: 2;
 }
 
-.btn-atras{
-    position: absolute;
-    top: 10% ;
-    left: 2%;
-    z-index: 2;
-} 
 
-#boton-2 {
+#btn6-1 {
     position: absolute;
     background-color: #FF8833;
     color: white;
     font-size: medium;
+    padding: 10px 135px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+
     display: flex;
-    align-self: center;
-    padding: 10px 40px;
+    top: 85% ;
+    left: 5%;
+}
+
+#btn6-2 {
+    position: absolute;
+    background-color: #FF8833;
+    color: white;
+    font-size: medium;
+    padding: 10px 135px;
     border: none;
     cursor: pointer;
     margin-bottom: 20px;
 
     top: 92% ;
-    left: 30%;
+    left: 5%;
 }
+
+
 
 .fondo {
     background-color: rgb(215, 255, 255);
@@ -45,4 +54,3 @@
     overflow: hidden;
     position: static;
 }
-

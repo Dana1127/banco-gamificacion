@@ -12,28 +12,39 @@
     z-index: 2;
 }
 
-.btn-atras{
-    position: absolute;
-    top: 10% ;
-    left: 2%;
-    z-index: 2;
-} 
 
-#boton-2 {
+#boton-5 {
     position: absolute;
     background-color: #FF8833;
     color: white;
     font-size: medium;
-    display: flex;
-    align-self: center;
-    padding: 10px 40px;
+    padding: 15px 135px;
     border: none;
     cursor: pointer;
     margin-bottom: 20px;
 
     top: 92% ;
-    left: 30%;
+    left: 5%;
 }
+
+.input{
+    position: absolute;
+    padding: 10px 60px;
+    text-align: center;
+    border-color: #FF8833;
+    border-radius: 5px  ;
+    border-width: 3px;
+    border-style: solid;
+    
+    top: 84% ;
+    font-size: large;
+}
+
+
+input::placeholder {
+    color: rgba(134, 134, 134, 0.5); 
+}
+
 
 .fondo {
     background-color: rgb(215, 255, 255);
@@ -45,4 +56,3 @@
     overflow: hidden;
     position: static;
 }
-
