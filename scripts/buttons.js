@@ -1,14 +1,16 @@
-
+/* 
 //Botón para la Pantalla 3
 //Flujo 1 --> Cumple tu sueño
 document.addEventListener('DOMContentLoaded', function () {
     var btn3_1 = document.getElementById("btn3-1");
     if (btn3_1) {
         btn3_1.addEventListener("click", function() {
-            window.location.href = "pantalla4.html"; 
+            window.location.href = "pantalla3.1.html"; 
         });
     }
 });
+
+
 
 
 //Pantalla 4
@@ -34,21 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-//Pantalla 6
+//Pantalla 6 */
 
 
 
-
-
-
-/* ------------------------------------------------------------------------------ */
-
-//Flujo 2 --> Ahorra inteligentemente
-/* 
-document.getElementById("btn3-2").addEventListener("click", function() {
-    window.location.href = "pantalla4.html"; 
-});
- */
 
 
 

@@ -21,7 +21,7 @@
 .btn-atras{
 
     text-decoration: none;
-    font-size: small;
+
     color: white;
     position: absolute;
     top: 9% ;
@@ -29,7 +29,7 @@
     z-index: 2;
 } 
 
-#boton-4 {
+.boton-1 {
     position: absolute;
     background-color: #FF8833;
     color: white;
@@ -47,6 +47,27 @@
     text-align: center;
     border-radius: 5px;
 }
+
+.boton-2 {
+    position: absolute;
+    background-color: white;
+    border-color: #FF8833;
+    border-width: 3px ;
+    color: #676767;
+    font-size: medium;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 15px;
+
+    width: 350px;
+    height: 47px;
+    top: 92% ;
+    left: 4%;
+    text-align: center;
+    border-radius: 5px;
+}
+
 
 
 .fondo {

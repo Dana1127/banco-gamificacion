@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#font{
+    font-family: 'Roboto', sans-serif;
+    }
+
 .contenedor {
     position: relative;
 }
@@ -12,19 +18,35 @@
     z-index: 2;
 }
 
+.btn-atras{
 
-#boton-5 {
+    text-decoration: none;
+    font-size: small;
+    color: white;
+    position: absolute;
+    top: 9% ;
+    left: 4%;
+    z-index: 2;
+} 
+
+
+.boton-1 {
     position: absolute;
     background-color: #FF8833;
     color: white;
     font-size: medium;
-    padding: 15px 135px;
     border: none;
     cursor: pointer;
     margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 15px;
 
+    width: 350px;
+    height: 47px;
     top: 92% ;
-    left: 5%;
+    left: 4%;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .input{

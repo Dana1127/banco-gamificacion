@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#font{
+    font-family: 'Roboto', sans-serif;
+    }
+
 .contenedor {
     position: relative;
 }
@@ -13,9 +19,13 @@
 }
 
 .btn-atras{
+
+    text-decoration: none;
+    font-size: small;
+    color: white;
     position: absolute;
-    top: 10% ;
-    left: 2%;
+    top: 9% ;
+    left: 4%;
     z-index: 2;
 } 
 
@@ -24,15 +34,16 @@
     background-color: #FF8833;
     color: white;
     font-size: medium;
-    display: flex;
-    align-self: center;
-    padding: 10px 40px;
     border: none;
     cursor: pointer;
     margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
 
+    width: 170px;
     top: 92% ;
     left: 30%;
+    text-align: center;
 }
 
 .fondo {
